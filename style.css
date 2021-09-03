@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+header> h1{
+     background-image: linear-gradient(to right top, #a6f92e, #97f947, #88f85b, #7af76c, #6cf67c, #5ef78e, #52f79e, #47f7ad, #3ef9c2, #40fad4, #4cfbe4, #5ffbf1); 
+    font-size: 1.2rem;
+    padding: 1.1rem;
+    text-align: center;
+}
+header> p{
+    background-color: #000000;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding: .3rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 40vw;
+    background-image: linear-gradient(to right top, #a6f92e, #97f947, #88f85b, #7af76c, #6cf67c, #5ef78e, #52f79e, #47f7ad, #3ef9c2, #40fad4, #4cfbe4, #5ffbf1);
+    border: 2px solid #97f947;
+    border-radius: 8px;
+    
+}
+label{
+    padding: 1rem .4rem;
+    margin: 0 auto;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+    
+input{
+    padding: 1rem;
+    width: 60%;
+    margin: .8rem auto;
+    border-radius: 8px;
+
+}
+button{
+    padding: 0.5rem;
+    margin: .8rem auto;
+    padding: .8rem;
+    border-radius: 6px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+textarea{
+    width: 70%;
+    height: 20vh;
+    margin: 1rem auto;
+    text-align: center;
+    justify-content:space-evenly;
+    padding: 2rem 2rem;
+    display: block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 1.4rem;
+    color: #000000;
+    font-family: 'Architects Daughter', cursive;
+
+}
+footer{
+    background-image: linear-gradient(to right top, #a6f92e, #97f947, #88f85b, #7af76c, #6cf67c, #5ef78e, #52f79e, #47f7ad, #3ef9c2, #40fad4, #4cfbe4, #5ffbf1); 
+    min-height: 10vh;
+    width: 100%;
+    text-align: center;
+}
+
+.icon .fa {
+    padding: 1rem 2rem;
+    margin: auto;
+    font-size: 20px;
+    color: #000000;
+}
+@media (max-width:600px){
+    .container{
+    width: 65vw;
+
+    }
+}
