@@ -22,10 +22,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body>nav>div>ul>li:nth-child(2) {
-    padding-right: 5rem;
-}
-
 .nav-links ul li {
     list-style: none;
     display: inline-block;
